@@ -1,0 +1,782 @@
+body {
+    position: relative;
+}
+
+/*-------- Banner ---------*/
+.main {
+    margin-bottom: 96px;
+}
+
+.buttons {
+    width: 160px;
+    height: 45px;
+    color: #F54748;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold 700;
+    background: #FFEEEE;
+    border: none;
+    margin-bottom: 32px;
+}
+
+
+p.Title-Black {
+    width: 450px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+}
+
+span.Title-red {
+    color: red;
+    font-weight: 900;
+    font-size: 72px;
+
+}
+
+.text-banner {
+    line-height: 30px;
+    width: 550px;
+    height: 60px;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+#banner-input {
+    width: 306px;
+    height: 62px;
+    border: 1px solid #F54748;
+    border-radius: 10px 0 0 10px;
+    padding: 24px 0 23px 16px;
+}
+
+.button {
+    width: 158px;
+    height: 62px;
+    background: #F54748;
+    color: #ffff;
+    font-weight: 16px;
+    text-align: center;
+    margin-left: -5px;
+    border: 1px solid #F54748;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.content {
+    text-align: center;
+}
+
+/* Popular  */
+/*------ Popular --------*/
+.col.l-4.m-4.c-12.popular {
+    padding-bottom: 40px;
+}
+
+.popular-title {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+
+.popular-text {
+
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 48px;
+    margin: auto;
+}
+
+.row.product {
+    padding-top: 67.94px;
+    display: flex;
+    justify-content: normal;
+}
+
+
+.row.product-main {
+    display: flex;
+    justify-content: normal;
+}
+
+.img-product {
+    border-radius: 20px;
+}
+
+.title-product {
+    margin: 23.26px 0 27px 0;
+}
+
+.title-product a {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #F54748;
+
+}
+
+.title-product a:hover {
+    text-decoration: underline;
+}
+
+.list-food {
+    float: left;
+    margin-right: 27.75px;
+    display: flex;
+    align-items: center;
+}
+
+
+/*------- Category ------- */
+
+.category {
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.title-category {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.button-category {
+    width: 220px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #F54748;
+    border: 1px solid #F54748;
+    margin-right: 13px;
+
+}
+
+.button-category:hover {
+    background: #F54748;
+    color: #fff;
+    border: none;
+}
+
+.category__list {
+    justify-content: space-between;
+    margin-bottom: 96px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 22px;
+}
+
+.title a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ConTact */
+.contact {
+    margin-top: 96px;
+}
+
+.title-contact {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 64px;
+}
+
+.row.form {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.input {
+    width: 620px;
+    height: 60px;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+select {
+    width: 620px;
+    height: 60px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    padding: 18px 0 18px 20px;
+    font-size: 18px;
+    color: #00000099;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#message {
+    width: 98%;
+    height: 200px;
+    margin: 12px 10px 0 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 0 260px 10px;
+}
+
+.buttons-contact {
+    text-align: center;
+}
+
+.submit-contact {
+    width: 180px;
+    height: 64px;
+    background: #000000;
+    color: #fff;
+    margin: 32px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.submit-contact:hover {
+    background: #F54748;
+    color: #fff;
+    border: none;
+}
+
+.form-input {
+    padding: 20px 0;
+}
+
+.form-input.error select,
+.form-input.error input {
+    border: 1px solid red;
+}
+
+.form-input.error span {
+    color: red;
+}
+
+
+
+
+@media (max-width: 1023px) {
+    .row {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /*-------- Banner ---------*/
+    .main {
+        margin-bottom: 96px;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    p.text-banner,
+    p.Title-Black,
+    span.Title-red,
+    .banner-left,
+    .banner-right img {
+        width: 100%;
+    }
+
+    p.Title-Black {
+        font-size: 49px;
+    }
+
+    span.Title-red {
+        font-size: 49px;
+    }
+
+    #banner-input {
+        width: 200px;
+        height: 30px;
+        border: 1px solid #F54748;
+        border-radius: 10px 0 0 10px;
+        padding: 24px 0 23px 16px;
+    }
+
+    button.button {
+        width: 100px;
+        height: 50px;
+    }
+
+    /* Popular  */
+    /*------ Popular --------*/
+
+    .product {
+        padding-top: 67.94px;
+        width: 100%;
+        justify-content: none;
+    }
+
+    .img-product {
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .title-product {
+        margin: 23.26px 0 20px 0;
+    }
+
+    .title-product a {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+    .list-food {
+        float: left;
+        margin-right: 27.75px;
+        margin-bottom: 10px;
+    }
+
+    img.icon-food {
+        width: 20px;
+    }
+
+    /*------- Category ------- */
+
+    .button-category {
+        width: 123px;
+        height: 60px;
+        font-size: 17px;
+    }
+
+    .row.category__list {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        margin-bottom: 96px;
+    }
+
+    .title {
+        margin-bottom: 15px;
+    }
+
+
+    /* ConTact */
+    input.input {
+        width: 100%;
+        height: 60px;
+        padding: 18px 20px;
+        font-size: 18px;
+        margin-top: 12px;
+        margin-bottom: 24px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        color: rgba(0, 0, 0, 0.6);
+
+    }
+
+    select#select {
+        width: 100%;
+        height: 60px;
+        margin-top: 12px;
+        margin-bottom: 24px;
+        padding: 18px 0 18px 20px;
+        font-size: 18px;
+        color: #00000099;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    #message {
+        width: 98%;
+        height: 200px;
+        margin: 12px 10px 0 10px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 20px 0 260px 10px;
+    }
+
+
+    .form-input.error select,
+    .form-input.error input {
+        border: 1px solid red;
+    }
+
+
+
+}
+
+@media (max-width: 739px) {
+
+    .grid.wide {
+        padding: 0 10px;
+    }
+
+    .row {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    /*-------- Banner ---------*/
+    .main {
+        margin-bottom: 96px;
+    }
+
+    .buttons {
+        width: 160px;
+        height: 45px;
+        color: #F54748;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold 700;
+        background: #FFEEEE;
+        border: none;
+        margin-bottom: 32px;
+    }
+
+
+    p.Title-Black {
+        width: 100%;
+        font-size: 72px;
+        font-weight: bold;
+    }
+
+    .Title-red {
+        color: red;
+        font-weight: bold;
+    }
+
+    p.text-banner {
+        width: 100%;
+        line-height: 30px;
+        height: 60px;
+        font-size: 18px;
+        margin-bottom: 32px;
+
+    }
+
+    input#banner-input {
+        width: 230px;
+        height: 62px;
+        border: 1px solid #F54748;
+        border-radius: 10px 0 0 10px;
+        padding: 24px 0 23px 16px;
+    }
+
+    .button.button {
+        width: 130px;
+        height: 62px;
+        background: #F54748;
+        color: #ffff;
+        font-weight: 16px;
+        text-align: center;
+        margin-left: -5px;
+        border: 1px solid #F54748;
+        border-radius: 0 10px 10px 0;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .banner-right {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .content span {
+        text-align: center;
+    }
+
+    /* Popular  */
+    /*------ Popular --------*/
+
+
+    .popular {
+        width: 100%;
+        margin-bottom: 32px;
+
+    }
+
+    .popular-title p {
+        font-size: 48px;
+        text-align: center;
+        margin-top: 100px;
+        font-weight: 700;
+        margin-bottom: 24px;
+
+    }
+
+    .popular-text {
+
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 48px;
+        margin: auto;
+    }
+
+    .product {
+        padding-top: 67.94px;
+    }
+
+    .img-product {
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .title-product {
+        margin: 23.26px 0 27px 0;
+    }
+
+    .title-product a {
+        font-size: 25px;
+        line-height: 32px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #F54748;
+
+    }
+
+    .title-product a:hover {
+        text-decoration: underline;
+    }
+
+
+
+    .list-food {
+        width: 20%;
+        margin: 0 30px 0 0;
+        align-items: center;
+        text-align: center;
+        /* display: inline-block; */
+    }
+
+    .list-food span {
+        font-size: 15px;
+    }
+
+    /*------- Category ------- */
+
+    .category {
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+
+    .title-category {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .button-category {
+        width: 220px;
+        height: 60px;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        color: #F54748;
+        border: 1px solid #F54748;
+        margin-right: 13px;
+
+    }
+
+    .button-category:hover {
+        background: #F54748;
+        color: #fff;
+        border: none;
+    }
+
+    .category__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 96px;
+    }
+
+    .title {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 50px;
+        line-height: 22px;
+    }
+
+    .title a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    /* ConTact */
+    .contact {
+        margin-top: 96px;
+    }
+
+    .title-contact {
+        font-weight: 700;
+        font-size: 48px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 64px;
+    }
+
+    .row.form {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    #label {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+
+
+    input.input {
+        width: 100%;
+        height: 60px;
+        padding: 18px 20px;
+        font-size: 18px;
+        margin-top: 12px;
+        margin-bottom: 24px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        color: rgba(0, 0, 0, 0.6);
+
+    }
+
+
+    select#select {
+        width: 100%;
+    }
+
+    select#select {
+        height: 60px;
+        margin-top: 12px;
+        margin-bottom: 24px;
+        padding: 18px 0 18px 20px;
+        font-size: 18px;
+        color: #00000099;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+
+    #message {
+        width: 98%;
+        height: 100px;
+        margin: 12px 0px 0 0px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 20px 0 260px 10px;
+    }
+
+    .buttons-contact {
+        text-align: center;
+    }
+
+    .submit-contact {
+        width: 180px;
+        height: 64px;
+        background: #000000;
+        color: #fff;
+        margin: 32px 0;
+        border-radius: 10px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .submit-contact:hover {
+        background: #F54748;
+        color: #fff;
+        border: none;
+    }
+
+
+    .form-input.error select,
+    .form-input.error input {
+        border: 1px solid red;
+    }
+
+    ::before {
+        float: right;
+    }
+
+    .nav-bar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        animation: modalShow 0.8s;
+        display: none;
+    }
+
+    .nav-menu {
+        position: absolute;
+        width: 300px;
+        right: 0;
+        top: 0;
+        min-height: 100vh;
+        background-color: #fff;
+        color: #000000;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    /* 
+    .nav-menu ul{
+        margin: ;
+    } */
+
+    .nav-menu li {
+        list-style: none;
+        margin: 35px 0 0 30px;
+    }
+
+    .nav-menu a {
+        text-decoration: none;
+        font-size: 24px;
+        /* font-weight: bold; */
+        color: #000000;
+    }
+
+    @keyframes modalshow {
+        from {
+            right: -800%;
+            opacity: 0;
+
+        }
+
+        to {
+            right: 0;
+            opacity: 1;
+        }
+    }
+
+
+}
